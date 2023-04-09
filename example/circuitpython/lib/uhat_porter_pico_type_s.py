@@ -1,5 +1,5 @@
 # usage:
-# import uhat-porter-type-s as board_bcm
+# import uhat_porter_pico_type_s as board_bcm
 
 import board
 
