@@ -2,10 +2,10 @@
 # 2022 Akkiesoft
 # MIT
 
-# type_s is recommend.
+# type_s or type_p3 are recommend.
 # type_p is slow to show.
-import uhat_porter_pico_type_s as board_bcm
-#import uhat_porter_pico_type_p as board_bcm
+#import uhat_porter_pico_type_s as board_bcm
+import uhat_porter_pico_type_p3 as board_bcm
 
 import adafruit_dotstar as dotstar
 import time
