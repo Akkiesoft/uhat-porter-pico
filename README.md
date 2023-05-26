@@ -102,6 +102,23 @@ while True:
 | blinkt.py     | PimoroniのBlinkt!を動かすサンプルです。Type-P Rev.1/Rev.2の場合は点滅が遅くなります。 |
 | keybow.py     | PimoroniのKewbowおよびKeybow Miniを動かすサンプルです。keybow_config.pyでキーの定義を編集します。LED点滅に対応。 |
 | unicornhat.py | PimoroniのUnicorn HATを動かすサンプルです。 |
+| unicornhatmini.py | PimoroniのUnicorn HAT Miniを動かすサンプル兼ライブラリです。オリジナルのライブラリを改変してあります |
+| unicornhatmini_doteditor.py | Unicorn HAT MiniをWebブラウザから操作して遊ぶドット絵エディターのサンプルです。PicoWを実装したボードと、unicornhatmini.pyが必要です。 |
+
+## 動作確認済みボード
+
+### Pimoroni
+
+* BLINKT!
+    * Type-SもしくはType-P Rev.3を推奨
+* Keybow
+* Keybow Mini
+* Unicorn HAT
+* Unicorn HAT Mini
+* Scroll pHAT HD
+* LED Shim
+    * CircuitPythonではType-P Rev.3が必要
+    * Adafruitのサンプルにピン番号読み替え変換ライブラリを組み合わせで動作
 
 ## TODO
 * 基板データの公開？
