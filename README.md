@@ -4,9 +4,11 @@ Raspberry Piの拡張ボードをRaspberry Pi Picoで遊ぶために、ピン配
 
 I2C・SPI・電源などの一般的なポートがRaspberry Piに合わせて配置されているため、昔遊んだHATボードをRaspberry Pi Picoに移植できるかチャレンジする時などに便利です。
 
-I2C用に10KΩのプルアップ抵抗と、リセットボタンを実装済みの状態で頒布しています。同人基板につき手ではんだ付けしていますが、実装後に検査済みです。
+I2C用に10KΩのプルアップ抵抗と、リセットボタンを実装済みの状態で頒布しています。同人基板につき手で実装しています（実装後に検査済み）。
 
 Raspberry Pi Pico（もしくはPico W）と2x20ピンヘッダーは各自で用意・はんだ付けが必要です。
+
+![board photo](image/type-p-rev3-photo.jpg)
 
 ![front side of board](image/type-p-rev3-1.png)
 
@@ -92,6 +94,7 @@ while True:
 * 0.96" SPI Colour LCD (160x80) Breakout
 * BLINKT!
     * Type-SもしくはType-P Rev.3を推奨
+* Display HAT Mini
 * Keybow
 * Keybow Mini
 * Unicorn HAT
@@ -100,6 +103,18 @@ while True:
 * LED Shim
     * CircuitPythonではType-P Rev.3が必要
     * Adafruitのサンプルにピン番号読み替え変換ライブラリを組み合わせで動作
+
+Display HAT Miniの組み合わせ例
+
+![Display HAT Mini on uHAT Porter Pico](image/demo-dento.jpg)
+
+LED Shimの動作デモ（動画）
+
+[![Pimoroni LED SHIM and Pico W on uHAT Porter Pico](https://img.youtube.com/vi/A4wwtv1Ayxs/0.jpg)](https://www.youtube.com/watch?v=A4wwtv1Ayxs)
+
+Blinkt!の動作デモ（動画）
+
+[![Pimoroni's Blinkt! running on Raspberry Pi Pico W on uHAT Porter Pico](https://img.youtube.com/vi/NRVWUoWUhiE/0.jpg)](https://www.youtube.com/watch?v=NRVWUoWUhiE)
 
 ## License
 
