@@ -15,7 +15,7 @@ https://ja.aliexpress.com/item/4001013178307.html
 
 はじめにPicoをはんだ付けします。きれいに載せるには、適当なピンヘッダーを何ヶ所かスルーホールに刺して仮止めするのがおすすめです。仮止めした状態で、ピンを刺していない場所をいくつかはんだ付けし、固定できたら仮止めしたピンを外して残りをはんだ付けします。
 
-[Soldering the Pico](../../image/assemble/step-01.jpg)
+![Soldering the Pico](../image/assemble/step-01.jpg)
 
 はんだは、パッドの上に適量を載せてから、Picoの側面の溝をはんだごてでなぞるようにして離すときれいに付きます。
 
@@ -23,13 +23,13 @@ https://ja.aliexpress.com/item/4001013178307.html
 
 GPIOピンとなるの2x20 ピンヘッダーをはんだ付けします。端の1箇所だけはんだ付けしたあと、ピンヘッダーが斜めについていないか確認してから残りをはんだ付けするときれいに取り付け可能です。
 
-[Soldering the pin header](../../image/assemble/step-02.jpg)
+![Soldering the pin header](../image/assemble/step-02.jpg)
 
 ## 任意でゴム足の貼り付け
 
 ゴム足は100円ショップで入手可能です。底面に貼り付けると設置時に安定します。ゴム足は必要に応じてハサミでカットして貼り付けます。
 
-[Attach rubber feet to the bottom](../../image/assemble/step-03.jpg)
+![Attach rubber feet to the bottom](../image/assemble/step-03.jpg)
 
 ## 応用
 
@@ -37,4 +37,4 @@ Raspberry Pi Picoを直接実装するかわりに1x20 ピンソケットを実�
 
 https://shop.pimoroni.com/products/booster-header
 
-[Assemble 1x20 pinsocket instead of the Pico directly](../../image/assemble/uhp-with-1x20-pinsocket.jpg)
+![Assemble 1x20 pinsocket instead of the Pico directly](../image/assemble/uhp-with-1x20-pinsocket.jpg)
