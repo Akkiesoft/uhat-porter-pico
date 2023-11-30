@@ -14,6 +14,8 @@ Raspberry Pi Pico（もしくはPico W）と2x20ピンヘッダーは各自で�
 
 ![back side of board](image/type-p-rev3-2.png)
 
+※裏面のイラストは同人イベント頒布版のみです。委託版にはイラストはありません。
+
 ## ピン番号対応表 (Type-P Rev.3)
 
 ピンの割当は以下の通り対応します。
@@ -49,7 +51,9 @@ Raspberry Pi Pico（もしくはPico W）と2x20ピンヘッダーは各自で�
 
 ## 頒布について
 
-現在は同人イベントでの出店を中心に頒布中です。
+現在は同人イベントでの出店を中心に頒布中しつつ、スイッチサイエンスさんにて委託販売中です。
+
+* [スイッチサイエンス販売ページ](https://www.switch-science.com/products/9364)
 
 ## 組み立て手順
 
@@ -87,6 +91,8 @@ while True:
 | unicornhatmini.py | PimoroniのUnicorn HAT Miniを動かすサンプル兼ライブラリです。オリジナルのライブラリを改変してあります |
 | unicornhatmini_doteditor.py | Unicorn HAT MiniをWebブラウザから操作して遊ぶドット絵エディターのサンプルです。PicoWを実装したボードと、unicornhatmini.pyが必要です。 |
 
+ここに書き忘れているサンプルもいくつかあります。
+
 ## 動作確認済みボード
 
 ### Pimoroni
@@ -94,7 +100,9 @@ while True:
 * 0.96" SPI Colour LCD (160x80) Breakout
 * BLINKT!
     * Type-SもしくはType-P Rev.3を推奨
+* BME280 Breakout
 * Display HAT Mini
+* Four Letter pHAT
 * Keybow
 * Keybow Mini
 * Unicorn HAT
